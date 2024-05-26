@@ -23,6 +23,10 @@ npm install redux react-redux @reduxjs/toolkit
 npm install tailwindcss
 npx tailwindcss init
 
+Create a .env file in the root directory of the project and add the following line:
+
+REACT_APP_MOVIES_API=https://dummyapi.online/api/movies
+
 Running the Application
 To start the development server, run:
 
